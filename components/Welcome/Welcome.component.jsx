@@ -9,7 +9,7 @@ const Welcome = () => {
         <h1 className={styles.title}>
           Hi, my name is <span>Bozidar</span>
         </h1>
-        <h1 className={styles.title}>I'm a full stack developer</h1>
+        <h1 className={styles.title}>I&apos;m a full stack developer</h1>
         <div className={styles.button}>
           <Button href='#about' label='Know More' />
         </div>
