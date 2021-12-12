@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 15vw;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1050px) {
+      text-align: center;
+      align-items: center;
+    }
+
+    .title {
+      color: white;
+      font-size: 3.5rem;
+      margin: 0;
+
+      span {
+        color: transparent;
+        background: linear-gradient(135deg, #67e400 0%, #00b165 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      @media screen and (max-width: 800px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    .button {
+      width: 240px;
+
+      a {
+        font-size: 1.5rem;
+      }
+
+      @media screen and (max-width: 1050px) {
+        width: 190px;
+      }
+    }
+  }
+}

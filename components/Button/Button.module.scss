@@ -1,0 +1,28 @@
+.button {
+  color: #67e400;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 5px 0;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(135deg, #67e400 0%, #00b165 100%);
+  transition: all 0.25s;
+  background: linear-gradient(135deg, #67e400 0%, #00b165 50%, transparent 50%);
+  background-size: 225% 100%;
+  background-position: right bottom;
+
+  &:hover {
+    color: white;
+    background-position: left;
+    box-shadow: #67e400 0 0 12px;
+  }
+
+  @media screen and (max-width: 1050px) {
+    margin-right: 0;
+  }
+
+  a {
+    padding: 5px 21px;
+  }
+}
