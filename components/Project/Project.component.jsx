@@ -17,7 +17,7 @@ const Project = ({ title, text, preview, code, image }) => {
       </div>
       <div className={styles.imageContainer}>
         <div data-aos='fade-up' className={styles.image}>
-          <Image src={image} alt='project image' layout='fill' priority />
+          <Image src={image} alt='project image' layout='fill' />
         </div>
       </div>
     </div>

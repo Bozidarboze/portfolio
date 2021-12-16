@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id='about' className={styles.container}>
       <div data-aos='fade-right' className={styles.image}>
-        <Image src='/profile.jpg' alt='profile picture' layout='fill' />
+        <Image src='/profile.jpg' alt='profile picture' layout='fill' priority />
       </div>
       <div data-aos='fade-left' className={styles.content}>
         <h1>About Me</h1>
