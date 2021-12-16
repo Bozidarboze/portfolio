@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Bozidar's Portfolio</title>
+        <title>Bozidar&apos;s Portfolio</title>
       </Head>
 
       <div>
