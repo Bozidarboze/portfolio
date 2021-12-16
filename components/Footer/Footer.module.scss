@@ -15,5 +15,13 @@
 
   .icon {
     margin: 0 20px;
+
+    img {
+      transition: opacity 250ms;
+    }
+
+    img:hover {
+      opacity: 0.7;
+    }
   }
 }
