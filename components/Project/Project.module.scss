@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px 15vw;
+  border-bottom: 1px #67e400 solid;
+  box-shadow: 0 0 8px#67e400;
 
   @media screen and (max-width: 768px) {
     min-height: 100vh;
