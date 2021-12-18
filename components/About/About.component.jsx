@@ -11,8 +11,9 @@ const About = () => {
       <div data-aos='fade-left' className={styles.content}>
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet
-          venenatis urna cursus eget nunc scelerisque. At auctor urna nunc id cursus metus aliquam. Sollicitudin aliquam ultrices sagittis orci a
+          Efficient full stack developer with extensive experience building mobile-first responsive websites using HTML, CSS/SASS and React. I am
+          passionate about building easy to use, state-of-the-art web applications using the Agile methodology. In addition, I have extensive
+          experience building RESTful web services using Node.js with Express.
         </p>
       </div>
     </div>
