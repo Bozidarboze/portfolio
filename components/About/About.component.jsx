@@ -12,7 +12,7 @@ const About = () => {
         <h1>About Me</h1>
         <p>
           Efficient full stack developer with extensive experience building mobile-first responsive websites using HTML, CSS/SASS and React. I am
-          passionate about building easy to use, state-of-the-art web applications using the Agile methodology. In addition, I have extensive
+          passionate about building easy to use, high-performance web applications using the Agile methodology. In addition, I have extensive
           experience building RESTful web services using Node.js with Express.
         </p>
       </div>
