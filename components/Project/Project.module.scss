@@ -23,6 +23,10 @@
     .buttons {
       display: flex;
       flex-wrap: wrap;
+
+      a {
+        height: 0;
+      }
     }
 
     @media screen and (max-width: 1600px) {

@@ -1,5 +1,13 @@
 const Projects = [
   {
+    id: 7,
+    title: "Twitter Quote Generator",
+    text: "Single page web app built with React and TypeScript",
+    preview: "https://bozidarboze.github.io/quote-generator/",
+    code: "https://github.com/Bozidarboze/quote-generator",
+    image: "/projects/quote-generator.png",
+  },
+  {
     id: 1,
     title: "KUD Ilinden",
     text: "Website built using Next.js for a Cultural Artistic Society.",
@@ -10,7 +18,7 @@ const Projects = [
   {
     id: 2,
     title: "CRWN Clothing",
-    text: "Single page eCommerce web app, built using React, Redux, Firebase and Stripe API.",
+    text: "eCommerce web app, built using React, Redux, Firebase and Stripe API.",
     preview: "https://crwn-clothing-bozidar.herokuapp.com/",
     code: "https://github.com/Bozidarboze/crwn",
     image: "/projects/crwn.png",

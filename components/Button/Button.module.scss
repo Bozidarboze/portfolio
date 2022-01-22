@@ -1,9 +1,16 @@
+.container {
+  margin-top: 50px;
+  margin-right: 50px;
+
+  @media screen and (max-width: 1050px) {
+    margin-right: 0;
+  }
+}
+
 .button {
   color: #67e400;
   font-size: 1.5rem;
-  margin-top: 50px;
-  margin-right: 50px;
-  padding: 5px 0;
+  padding: 5px 20px;
   border: 1px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(135deg, #67e400 0%, #00b165 100%);
@@ -16,13 +23,5 @@
     color: white;
     background-position: left;
     box-shadow: #67e400 0 0 12px;
-  }
-
-  @media screen and (max-width: 1050px) {
-    margin-right: 0;
-  }
-
-  a {
-    padding: 5px 21px;
   }
 }
