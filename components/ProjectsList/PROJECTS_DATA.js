@@ -5,7 +5,7 @@ const Projects = [
     text: "Single page web app built with React and TypeScript",
     preview: "https://bozidarboze.github.io/markdown-previewer/",
     code: "https://github.com/Bozidarboze/markdown-previewer",
-    image: "/projects/markdown-previewer.png",
+    image: "https://i.postimg.cc/gjb4HnFn/markdown-previewer.png",
   },
   {
     id: 7,
@@ -13,7 +13,7 @@ const Projects = [
     text: "Single page web app built with React and TypeScript",
     preview: "https://bozidarboze.github.io/quote-generator/",
     code: "https://github.com/Bozidarboze/quote-generator",
-    image: "/projects/quote-generator.png",
+    image: "https://i.postimg.cc/NMHpXRn3/quote-generator.png",
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ const Projects = [
     text: "Website built using Next.js for a Cultural Artistic Society.",
     preview: "https://kudilinden.vercel.app",
     code: "https://github.com/Bozidarboze/kudilinden",
-    image: "/projects/kudilinden.png",
+    image: "https://i.postimg.cc/fbwNBRsq/kudilinden.png",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const Projects = [
     text: "eCommerce web app, built using React, Redux, Firebase and Stripe API.",
     preview: "https://crwn-clothing-bozidar.herokuapp.com/",
     code: "https://github.com/Bozidarboze/crwn",
-    image: "/projects/crwn.png",
+    image: "https://i.postimg.cc/q75pqdfm/crwn.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const Projects = [
     text: "Single page web app, built using React and REST API, that can detect a face on an image.",
     preview: "https://facedetect-bozidar.herokuapp.com/",
     code: "https://github.com/Bozidarboze/facedetect",
-    image: "/projects/facedetect.png",
+    image: "https://i.postimg.cc/Fs3z61th/facedetect.png",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const Projects = [
     text: "Single page web app, built with React, with a list of robofriends that you can search through.",
     preview: "https://bozidarboze.github.io/robofriends/",
     code: "https://github.com/Bozidarboze/robofriends",
-    image: "/projects/robofriends.png",
+    image: "https://i.postimg.cc/y6r8xcK1/robofriends.png",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const Projects = [
     text: "Dice game web app, built with HTML, CSS and JQuery.",
     preview: "https://bozidarboze.github.io/dicegame/",
     code: "https://github.com/Bozidarboze/dicegame",
-    image: "/projects/dicegame.png",
+    image: "https://i.postimg.cc/g05grggy/dicegame.png",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const Projects = [
     text: "Simple drumkit web app, built with HTML, CSS and Javascript.",
     preview: "https://bozidarboze.github.io/drumkit/",
     code: "https://github.com/Bozidarboze/drumkit",
-    image: "/projects/drumkit.png",
+    image: "https://i.postimg.cc/prQCGRRk/drumkit.png",
   },
 ];
 
