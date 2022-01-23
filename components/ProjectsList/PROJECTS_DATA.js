@@ -1,5 +1,13 @@
 const Projects = [
   {
+    id: 8,
+    title: "Markdown Previewer",
+    text: "Single page web app built with React and TypeScript",
+    preview: "https://bozidarboze.github.io/markdown-previewer/",
+    code: "https://github.com/Bozidarboze/markdown-previewer",
+    image: "/projects/markdown-previewer.png",
+  },
+  {
     id: 7,
     title: "Twitter Quote Generator",
     text: "Single page web app built with React and TypeScript",
