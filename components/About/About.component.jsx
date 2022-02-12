@@ -5,10 +5,10 @@ import styles from "./About.module.scss";
 const About = () => {
   return (
     <div id='about' className={styles.container}>
-      <div data-aos='fade-right' className={styles.image}>
+      <div data-aos='fade-right' data-aos-once className={styles.image}>
         <Image src='https://i.postimg.cc/ryvC5Nvt/profile.jpg' alt='profile picture' layout='fill' priority unoptimized />
       </div>
-      <div data-aos='fade-left' className={styles.content}>
+      <div data-aos='fade-left' data-aos-once className={styles.content}>
         <h1>About Me</h1>
         <p>
           Efficient full stack developer with extensive experience building mobile-first responsive websites using HTML, CSS/SASS and React. I am

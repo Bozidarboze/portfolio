@@ -1,8 +1,32 @@
 const Projects = [
   {
+    id: 11,
+    title: "Calculator",
+    text: "Calculator app built with React and TypeScript.",
+    preview: "https://bozidarboze.github.io/calculator/",
+    code: "https://github.com/Bozidarboze/calculator",
+    image: "https://i.postimg.cc/9QRBRfvq/calculator.png",
+  },
+  {
+    id: 10,
+    title: "25 + 5 Clock",
+    text: "Single page web app built with React and TypeScript.",
+    preview: "https://bozidarboze.github.io/clock/",
+    code: "https://github.com/Bozidarboze/clock",
+    image: "https://i.postimg.cc/Jhjcx27r/25-5-clock.png",
+  },
+  {
+    id: 9,
+    title: "Drum Machine",
+    text: "Single page web app built with React and TypeScript you can play some tunes with.",
+    preview: "https://bozidarboze.github.io/drum-machine/",
+    code: "https://github.com/Bozidarboze/drum-machine",
+    image: "https://i.postimg.cc/28JQDDVj/drum-machine.png",
+  },
+  {
     id: 8,
     title: "Markdown Previewer",
-    text: "Single page web app built with React and TypeScript",
+    text: "Single page web app built with React and TypeScript that can preview Markdown in realtime as you type in the editor.",
     preview: "https://bozidarboze.github.io/markdown-previewer/",
     code: "https://github.com/Bozidarboze/markdown-previewer",
     image: "https://i.postimg.cc/gjb4HnFn/markdown-previewer.png",
@@ -10,7 +34,7 @@ const Projects = [
   {
     id: 7,
     title: "Twitter Quote Generator",
-    text: "Single page web app built with React and TypeScript",
+    text: "Single page web app built with React and TypeScript that generates quotes you can post on your twitter feed.",
     preview: "https://bozidarboze.github.io/quote-generator/",
     code: "https://github.com/Bozidarboze/quote-generator",
     image: "https://i.postimg.cc/NMHpXRn3/quote-generator.png",

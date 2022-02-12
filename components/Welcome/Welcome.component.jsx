@@ -5,7 +5,7 @@ import styles from "./Welcome.module.scss";
 const Welcome = () => {
   return (
     <div className={styles.container}>
-      <div data-aos='fade-right' className={styles.content}>
+      <div data-aos='fade-right' data-aos-once className={styles.content}>
         <h1 className={styles.title}>
           Hi, my name is <span>Bozidar</span>
         </h1>
