@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import Button from "../Button/Button.component";
+
 import styles from "./About.module.scss";
 
 const About = () => {
@@ -15,6 +17,9 @@ const About = () => {
           passionate about building easy to use, high-performance web applications using the Agile methodology. In addition, I have extensive
           experience building RESTful web services using Node.js with Express.
         </p>
+        <div className={styles.button}>
+          <Button label='My Resume' href='/Resume.pdf' target='_blank' />
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,10 @@ import Button from "../Button/Button.component";
 import styles from "./Welcome.module.scss";
 
 const Welcome = () => {
+  const handleButtonClick = () => {
+    document.getElementById("about").scrollIntoView({ block: "center" });
+  };
+
   return (
     <div className={styles.container}>
       <div data-aos='fade-right' data-aos-once className={styles.content}>
@@ -11,7 +15,7 @@ const Welcome = () => {
         </h1>
         <h1 className={styles.title}>I&apos;m a full stack developer</h1>
         <div className={styles.button}>
-          <Button href='#about' label='Know More' />
+          <Button handleButtonClick={handleButtonClick} label='Know More' />
         </div>
       </div>
     </div>

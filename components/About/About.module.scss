@@ -1,5 +1,4 @@
 .container {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   background-color: #001818;
   padding: 50px 15vw;
   display: flex;
@@ -32,12 +31,24 @@
 
   .content {
     width: 500px;
+
     h1 {
       text-align: center;
     }
 
     p {
       text-align: justify;
+    }
+  }
+
+  .button {
+    margin: 30px auto 0;
+    width: 190px;
+
+    div {
+      background-color: transparent;
+      color: white;
+      border: 1px solid #1f5b5b;
     }
   }
 }
