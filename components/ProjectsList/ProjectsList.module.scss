@@ -1,9 +1,14 @@
+.container {
+  padding: 5vh 5vw;
+}
+
 .title {
   color: white;
   text-align: center;
-  margin: 10vh 0 0;
   font-size: 3rem;
-  padding: 0 30px;
+  margin: 20px 0 0;
+  padding-bottom: 5vh;
+  border-bottom: 3px solid #4d9999a2;
 }
 
 .projects {
@@ -11,5 +16,5 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10vh 5vw;
-  padding: 10vh 5vw;
+  padding: 10vh 0;
 }

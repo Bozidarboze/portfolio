@@ -2,7 +2,7 @@ const Projects = [
   {
     id: 16,
     title: "Timestamp Microservice",
-    text: "Microservice built with NodeJS and Express that converts a timestamp to Unix or UTC Date",
+    text: "Microservice built using NodeJS with Express that converts a timestamp to Unix or UTC Date",
     preview: "https://bozidar-timestamp-microservice.herokuapp.com/",
     code: "https://github.com/Bozidarboze/timestamp-microservice",
     image: "https://i.postimg.cc/WzcDWVWR/timestamp.png",
@@ -11,7 +11,7 @@ const Projects = [
   {
     id: 15,
     title: "Request Header Parser",
-    text: "Microservice built with NodeJS and Express that can detect your IP Address, Language and Machine",
+    text: "Microservice built using NodeJS with Express that can detect your IP Address, Language and Machine",
     preview: "https://bozidar-req-header-parser.herokuapp.com/",
     code: "https://github.com/Bozidarboze/req-header-parser",
     image: "https://i.postimg.cc/tTxZNJzt/req-header-parser.png",
@@ -20,7 +20,7 @@ const Projects = [
   {
     id: 14,
     title: "URL Shortener",
-    text: "Microservice built with NodeJS and Express and uses MongoDB for storing data. It accepts a URL and gives you a short URL you can use.",
+    text: "Microservice built using NodeJS with Express and uses MongoDB for storing data. It accepts a URL and gives you a short URL you can use.",
     preview: "https://bozidar-url-shortener.herokuapp.com/",
     code: "https://github.com/Bozidarboze/url-shortener",
     image: "https://i.postimg.cc/Y0NvTPZv/url-shortener.png",
@@ -29,7 +29,7 @@ const Projects = [
   {
     id: 13,
     title: "File Uploader",
-    text: "Microservice built with NodeJS and Express and uses Multer package to upload files to the server.",
+    text: "Microservice built using NodeJS with Express and uses Multer package to upload files to the server.",
     preview: "https://bozidar-file-uploader.herokuapp.com/",
     code: "https://github.com/Bozidarboze/file-uploader",
     image: "https://i.postimg.cc/MGXjXdML/file-uploader.png",
@@ -38,7 +38,7 @@ const Projects = [
   {
     id: 12,
     title: "Exercise Tracker",
-    text: "Microservice built with NodeJS and Express and uses MongoDB for storing data. You can create a user and then add exercises to that user. You can also check the logs.",
+    text: "Microservice built using NodeJS with Express and uses MongoDB for storing data. You can create a user and then add exercises to that user. You can also check the logs.",
     preview: "https://bozidar-exercise-tracker.herokuapp.com/",
     code: "https://github.com/Bozidarboze/exercise-tracker",
     image: "https://i.postimg.cc/CKtn8kbx/exervice-tracker.png",
@@ -110,7 +110,7 @@ const Projects = [
   {
     id: 3,
     title: "Facedetect",
-    text: "Single page web app, built using React and REST API, that can detect a face on an image.",
+    text: "Single page web app, built using React for the Front End and NodeJS with Express and PostgreSQL for storing data on the backend, that can detect a face on an image.",
     preview: "https://bozidarboze.github.io/facedetect",
     code: "https://github.com/Bozidarboze/facedetect",
     image: "https://i.postimg.cc/Fs3z61th/facedetect.png",
