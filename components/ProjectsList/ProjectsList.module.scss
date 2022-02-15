@@ -1,4 +1,12 @@
-.container {
+.title {
+  color: white;
+  text-align: center;
+  margin: 10vh 0 0;
+  font-size: 3rem;
+  padding: 0 30px;
+}
+
+.projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

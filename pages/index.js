@@ -14,7 +14,8 @@ const HomePage = () => {
       <div>
         <Welcome />
         <About />
-        <ProjectsList />
+        <ProjectsList title='Front End Projects' />
+        <ProjectsList title='Back End Projects' />
         <Footer />
       </div>
     </>

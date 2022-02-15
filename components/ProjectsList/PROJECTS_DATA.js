@@ -1,11 +1,57 @@
 const Projects = [
   {
+    id: 16,
+    title: "Timestamp Microservice",
+    text: "Microservice built with NodeJS and Express that converts a timestamp to Unix or UTC Date",
+    preview: "https://bozidar-timestamp-microservice.herokuapp.com/",
+    code: "https://github.com/Bozidarboze/timestamp-microservice",
+    image: "https://i.postimg.cc/WzcDWVWR/timestamp.png",
+    app: "backend",
+  },
+  {
+    id: 15,
+    title: "Request Header Parser",
+    text: "Microservice built with NodeJS and Express that can detect your IP Address, Language and Machine",
+    preview: "https://bozidar-req-header-parser.herokuapp.com/",
+    code: "https://github.com/Bozidarboze/req-header-parser",
+    image: "https://i.postimg.cc/tTxZNJzt/req-header-parser.png",
+    app: "backend",
+  },
+  {
+    id: 14,
+    title: "URL Shortener",
+    text: "Microservice built with NodeJS and Express and uses MongoDB for storing data. It accepts a URL and gives you a short URL you can use.",
+    preview: "https://bozidar-url-shortener.herokuapp.com/",
+    code: "https://github.com/Bozidarboze/url-shortener",
+    image: "https://i.postimg.cc/Y0NvTPZv/url-shortener.png",
+    app: "backend",
+  },
+  {
+    id: 13,
+    title: "File Uploader",
+    text: "Microservice built with NodeJS and Express and uses Multer package to upload files to the server.",
+    preview: "https://bozidar-file-uploader.herokuapp.com/",
+    code: "https://github.com/Bozidarboze/file-uploader",
+    image: "https://i.postimg.cc/MGXjXdML/file-uploader.png",
+    app: "backend",
+  },
+  {
+    id: 12,
+    title: "Exercise Tracker",
+    text: "Microservice built with NodeJS and Express and uses MongoDB for storing data. You can create a user and then add exercises to that user. You can also check the logs.",
+    preview: "https://bozidar-exercise-tracker.herokuapp.com/",
+    code: "https://github.com/Bozidarboze/exercise-tracker",
+    image: "https://i.postimg.cc/CKtn8kbx/exervice-tracker.png",
+    app: "backend",
+  },
+  {
     id: 11,
     title: "Calculator",
     text: "Calculator app built with React and TypeScript.",
     preview: "https://bozidarboze.github.io/calculator/",
     code: "https://github.com/Bozidarboze/calculator",
     image: "https://i.postimg.cc/9QRBRfvq/calculator.png",
+    app: "frontend",
   },
   {
     id: 10,
@@ -14,6 +60,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/clock/",
     code: "https://github.com/Bozidarboze/clock",
     image: "https://i.postimg.cc/Jhjcx27r/25-5-clock.png",
+    app: "frontend",
   },
   {
     id: 9,
@@ -22,6 +69,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/drum-machine/",
     code: "https://github.com/Bozidarboze/drum-machine",
     image: "https://i.postimg.cc/28JQDDVj/drum-machine.png",
+    app: "frontend",
   },
   {
     id: 8,
@@ -30,6 +78,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/markdown-previewer/",
     code: "https://github.com/Bozidarboze/markdown-previewer",
     image: "https://i.postimg.cc/gjb4HnFn/markdown-previewer.png",
+    app: "frontend",
   },
   {
     id: 7,
@@ -38,6 +87,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/quote-generator/",
     code: "https://github.com/Bozidarboze/quote-generator",
     image: "https://i.postimg.cc/NMHpXRn3/quote-generator.png",
+    app: "frontend",
   },
   {
     id: 1,
@@ -46,6 +96,7 @@ const Projects = [
     preview: "https://kudilinden.vercel.app",
     code: "https://github.com/Bozidarboze/kudilinden",
     image: "https://i.postimg.cc/fbwNBRsq/kudilinden.png",
+    app: "frontend",
   },
   {
     id: 2,
@@ -54,6 +105,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/crwn/",
     code: "https://github.com/Bozidarboze/crwn",
     image: "https://i.postimg.cc/q75pqdfm/crwn.png",
+    app: "frontend",
   },
   {
     id: 3,
@@ -62,6 +114,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/facedetect",
     code: "https://github.com/Bozidarboze/facedetect",
     image: "https://i.postimg.cc/Fs3z61th/facedetect.png",
+    app: "frontend",
   },
   {
     id: 4,
@@ -70,6 +123,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/robofriends/",
     code: "https://github.com/Bozidarboze/robofriends",
     image: "https://i.postimg.cc/y6r8xcK1/robofriends.png",
+    app: "frontend",
   },
   {
     id: 5,
@@ -78,6 +132,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/dicegame/",
     code: "https://github.com/Bozidarboze/dicegame",
     image: "https://i.postimg.cc/g05grggy/dicegame.png",
+    app: "frontend",
   },
   {
     id: 6,
@@ -86,6 +141,7 @@ const Projects = [
     preview: "https://bozidarboze.github.io/drumkit/",
     code: "https://github.com/Bozidarboze/drumkit",
     image: "https://i.postimg.cc/prQCGRRk/drumkit.png",
+    app: "frontend",
   },
 ];
 
