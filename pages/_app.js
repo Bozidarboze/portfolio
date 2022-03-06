@@ -6,7 +6,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
   return <Component {...pageProps} />;
 }

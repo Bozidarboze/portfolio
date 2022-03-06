@@ -1,5 +1,14 @@
 const Projects = [
   {
+    id: 17,
+    title: "Warehouse",
+    text: "Single Page Application built with React, Redux, Redux-saga for the front end, and Node.js with Express for the backend. The app makes managing a warehouse easy and effective. ",
+    preview: "https://bozidar-warehouse.vercel.app/",
+    code: "https://github.com/Bozidarboze/warehouse",
+    image: "https://i.postimg.cc/c4gPMfT2/warehouse.png",
+    app: "frontend",
+  },
+  {
     id: 16,
     title: "Timestamp Microservice",
     text: "Microservice built using NodeJS with Express that converts a timestamp to Unix or UTC Date",
