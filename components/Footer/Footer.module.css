@@ -1,0 +1,23 @@
+.container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: aliceblue;
+}
+
+.container > span {
+    font-size: 0.9rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon {
+    font-size: 2rem;
+}

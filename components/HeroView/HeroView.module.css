@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    background: aliceblue;
+    margin: 24px;
+    min-height: calc(100vh - 48px); /* 100vh - top margin - bottom margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.nameContainer {
+    width: 40%;
+}
+
+.nameContainer > h1 {
+    color: aquamarine;
+    font-size: 2.5rem;
+}
+
+.nameContainer > p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 24px;
+    text-align: justify;
+}
+
+.graphic1 {
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    opacity: 0.5;
+}
+
+.graphic2 {
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    opacity: 0.5;
+}
+
+.arrowDown {
+    position: absolute;
+    bottom: 72px;
+    left: calc(50% - 18px);
+    animation: arrowDown 1s infinite ease-in-out;
+}
+
+.icon {
+    font-size: 15rem;
+}
+
+@keyframes arrowDown {
+    50% {
+        translate: 0 24px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .nameContainer {
+        width: 90%;
+        text-align: center;
+    }
+
+    .nameContainer > h1 {
+        font-size: 1.8rem;
+    }
+
+    .nameContainer > p {
+        width: 100%;
+    }
+
+    .graphic2 {
+        top: 5vw;
+    }
+
+    .icon {
+        font-size: 8rem;
+    }
+}

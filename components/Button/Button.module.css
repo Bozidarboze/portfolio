@@ -1,0 +1,20 @@
+.container > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 160px;
+    height: 40px;
+    background: aquamarine;
+    border-radius: 30px;
+}
+
+.outline > a {
+    border: 1px solid aquamarine;
+    background: none;
+}
+
+.disabled > a {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
