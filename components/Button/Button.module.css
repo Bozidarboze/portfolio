@@ -5,12 +5,12 @@
     gap: 8px;
     width: 160px;
     height: 40px;
-    background: aquamarine;
+    background: #7BFECD;
     border-radius: 30px;
 }
 
 .outline > a {
-    border: 1px solid aquamarine;
+    border: 1px solid #7BFECD;
     background: none;
 }
 

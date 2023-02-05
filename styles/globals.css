@@ -12,3 +12,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+p {
+  line-height: 20px;
+  font-weight: 300;
+}
