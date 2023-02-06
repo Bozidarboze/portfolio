@@ -16,20 +16,20 @@ const renderProject = (project: ProjectType, idx: number) => {
   );
 };
 
-const renderBackendProjects = (projects: ProjectType[]) => {
+const renderMicroservices = (projects: ProjectType[]) => {
   return projects.map((project, idx) => project.type === 'backend' && renderProject(project, idx));
 };
 
-const renderFrontendProjects = (projects: ProjectType[]) => {
+const renderProjects = (projects: ProjectType[]) => {
   return projects.map((project, idx) => project.type === 'frontend' && renderProject(project, idx));
 };
 
 const ProjectsView = ({ projects }: { projects: ProjectType[] }) => (
   <section className={styles.container}>
-    <h2>Frontend Projects</h2>
-    {renderFrontendProjects(projects)}
-    <h2>Backend Projects</h2>
-    {renderBackendProjects(projects)}
+    <h2>Projects</h2>
+    {renderProjects(projects)}
+    <h2>Microservices</h2>
+    {renderMicroservices(projects)}
   </section>
 );
 
