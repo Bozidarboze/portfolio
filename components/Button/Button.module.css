@@ -5,16 +5,31 @@
     gap: 8px;
     width: 160px;
     height: 40px;
-    background: #7BFECD;
+    background: #30E3CA;
     border-radius: 30px;
+    transition: 200ms;
+}
+
+.container > a:hover {
+    filter: brightness(0.9);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .outline > a {
-    border: 1px solid #7BFECD;
+    border: 1px solid #30E3CA;
     background: none;
+}
+
+.outline > a:hover {
+    background: rgba(48, 227, 202, 0.05);
 }
 
 .disabled > a {
     opacity: 0.3;
     cursor: not-allowed;
+}
+
+.disabled > a:hover {
+    box-shadow: inherit;
+    filter: inherit;
 }
