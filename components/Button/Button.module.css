@@ -5,31 +5,28 @@
     gap: 8px;
     width: 160px;
     height: 40px;
-    background: #30E3CA;
+    background: #007cf0;
     border-radius: 30px;
     transition: 200ms;
+    color: white;
 }
 
 .container > a:hover {
-    filter: brightness(0.9);
+    background-color: #0064c5;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .outline > a {
-    border: 1px solid #30E3CA;
+    border: 1px solid #007cf0;
     background: none;
+    color: black;
 }
 
 .outline > a:hover {
-    background: rgba(48, 227, 202, 0.05);
+    background: rgba(0, 124, 240, 0.05);
 }
 
 .disabled > a {
     opacity: 0.3;
-    cursor: not-allowed;
-}
-
-.disabled > a:hover {
-    box-shadow: inherit;
-    filter: inherit;
+    pointer-events: none;
 }
